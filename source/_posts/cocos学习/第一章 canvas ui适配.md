@@ -4,6 +4,8 @@ date: 2025-01-20 00:00:00
 tags:
   - Cocos-Creator
   - 游戏开发
+categories:
+  - Cocos
 ---
 
 ## 一、概述

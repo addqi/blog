@@ -117,11 +117,12 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || home                      #首页
+  articles: /articles/ || book         #文章
+  projects: /projects/ || gamepad      #示例项目
   archives: /archives/ || archive      #归档
   categories: /categories/ || th       #分类
   tags: /tags/ || tags                 #标签
   about: /about/ || user               #关于
-  resources: /resources/ || download   #资源
   # schedule: /schedule/ || calendar    #日历
   # sitemap: /sitemap.xml || sitemap    #站点地图，供搜索引擎爬取
   # commonweal: /404/ || heartbeat      #腾讯公益404
