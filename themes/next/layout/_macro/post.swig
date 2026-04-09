@@ -200,7 +200,6 @@
           {%- endif %}
           <!--/noindex-->
         {% else %}
-          {{ post.content }}
         {%- endif %}
       {% else %}
         {{ post.content }}
