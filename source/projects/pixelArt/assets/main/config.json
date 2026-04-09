@@ -1,0 +1,76 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "main",
+    "deps": [],
+    "uuids": [
+        "018a54fc9",
+        "077bf33e0",
+        "0e5cea1f2",
+        "55b8774d-a3e6-4106-bf1e-55977a053918",
+        "5b7846ef-7e66-4112-8aeb-a29b74cd03cf",
+        "5b7846ef-7e66-4112-8aeb-a29b74cd03cf@6c48a",
+        "5b7846ef-7e66-4112-8aeb-a29b74cd03cf@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "91d81e57-db0a-4a92-be81-49b92175f470",
+        "96d42b91-daa6-4803-bbc8-96f13e86e0c3",
+        "a996a975-54da-43f8-b7fb-3a70d3f411ce",
+        "a996a975-54da-43f8-b7fb-3a70d3f411ce@6c48a",
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "d01db569-b926-415b-a456-75ad1e6cbc8e",
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+    ],
+    "paths": {
+        "d01db569-b926-415b-a456-75ad1e6cbc8e": [
+            "db:/assets/game",
+            "cc.SceneAsset",
+            1
+        ],
+        "55b8774d-a3e6-4106-bf1e-55977a053918": [
+            "db:/assets/start",
+            "cc.SceneAsset",
+            1
+        ],
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8": [
+            "db:/internal/default_renderpipeline/builtin-forward",
+            "cc.RenderPipeline",
+            1
+        ],
+        "ba21476f-2866-4f81-9c4d-6e359316e448": [
+            "db:/internal/physics/default-physics-material",
+            "cc.PhysicsMaterial",
+            1
+        ]
+    },
+    "scenes": {
+        "db://assets/game.scene": "d01db569-b926-415b-a456-75ad1e6cbc8e",
+        "db://assets/start.scene": "55b8774d-a3e6-4106-bf1e-55977a053918"
+    },
+    "packs": {
+        "0e5cea1f2": [
+            "5b7846ef-7e66-4112-8aeb-a29b74cd03cf@6c48a",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
+            "a996a975-54da-43f8-b7fb-3a70d3f411ce@6c48a"
+        ],
+        "018a54fc9": [
+            "91d81e57-db0a-4a92-be81-49b92175f470",
+            "96d42b91-daa6-4803-bbc8-96f13e86e0c3"
+        ],
+        "077bf33e0": [
+            "5b7846ef-7e66-4112-8aeb-a29b74cd03cf@f9941",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+            "d01db569-b926-415b-a456-75ad1e6cbc8e"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

@@ -6,7 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "deploy:all": "hexo clean && hexo g && hexo d",
+   "deploy:all": "hexo clean && hexo g && cp public/.nojekyll .deploy_git/.nojekyll 2>/dev/null; hexo d",
     "server": "hexo server"
   },
   "hexo": {

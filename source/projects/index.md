@@ -5,11 +5,20 @@ type: projects
 layout: page
 ---
 
-<div class="projects-placeholder">
-  <div class="projects-placeholder-icon">
-    <i class="fa fa-hammer"></i>
-  </div>
-  <h2>正在建设中...</h2>
-  <p>示例项目即将上线，敬请期待！</p>
-  <a href="/" class="btn">返回首页</a>
+<div class="project-cards">
+
+<a href="/projects/pixelArt/" class="project-card" target="_blank">
+  <div class="project-card-icon"><i class="fa fa-desktop"></i></div>
+  <h3>PixelArt</h3>
+  <p>像素画编辑器 - 基于 Cocos Creator 构建</p>
+  <span class="project-card-tag">电脑版点击这里</span>
+</a>
+
+<a href="/projects/pixelArtMobile/" class="project-card" target="_blank">
+  <div class="project-card-icon"><i class="fa fa-mobile-alt"></i></div>
+  <h3>PixelArt</h3>
+  <p>像素画编辑器 - 基于 Cocos Creator 构建</p>
+  <span class="project-card-tag">手机点击这里</span>
+</a>
+
 </div>
