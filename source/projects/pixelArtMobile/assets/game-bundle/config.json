@@ -1,0 +1,45 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "game-bundle",
+    "deps": [],
+    "uuids": [
+        "310f60b5-6c66-4e3b-bf91-7be4b2487d86",
+        "52610dfa-d33a-476f-9a43-d877576da28d",
+        "6d300bb2-26a9-4225-94a3-0ff2a4e5d923",
+        "b77b437a-559e-4271-b638-552aa67ffd3c"
+    ],
+    "paths": {
+        "b77b437a-559e-4271-b638-552aa67ffd3c": [
+            "puzzles/apple",
+            "cc.JsonAsset",
+            1
+        ],
+        "6d300bb2-26a9-4225-94a3-0ff2a4e5d923": [
+            "puzzles/mountain",
+            "cc.JsonAsset",
+            1
+        ],
+        "310f60b5-6c66-4e3b-bf91-7be4b2487d86": [
+            "puzzles/test_1px",
+            "cc.JsonAsset",
+            1
+        ],
+        "52610dfa-d33a-476f-9a43-d877576da28d": [
+            "puzzles/test_simple",
+            "cc.JsonAsset",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

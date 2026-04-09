@@ -1,0 +1,45 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "833ca983-59f4-4f45-8237-548ef9de62bf",
+        "86f34f8e-a36d-40f7-98be-d0a3b9de67e0",
+        "c8cffd2b-89e3-408c-9406-8416059aaa2c",
+        "e48f8e59-4ae6-476e-a28f-3072e9e3977a"
+    ],
+    "paths": {
+        "c8cffd2b-89e3-408c-9406-8416059aaa2c": [
+            "puzzles/apple",
+            "cc.JsonAsset",
+            1
+        ],
+        "833ca983-59f4-4f45-8237-548ef9de62bf": [
+            "puzzles/mountain",
+            "cc.JsonAsset",
+            1
+        ],
+        "86f34f8e-a36d-40f7-98be-d0a3b9de67e0": [
+            "puzzles/test_1px",
+            "cc.JsonAsset",
+            1
+        ],
+        "e48f8e59-4ae6-476e-a28f-3072e9e3977a": [
+            "puzzles/test_simple",
+            "cc.JsonAsset",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
