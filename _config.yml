@@ -31,6 +31,8 @@ i18n_dir: :lang
 skip_render:
   - "projects/pixelArt/**"
   - "projects/pixelArtMobile/**"
+  - "projects/rogue/**"
+  - "projects/rogueMobile/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -95,6 +97,8 @@ include:
   - .nojekyll
   - "projects/pixelArt/**"
   - "projects/pixelArtMobile/**"
+  - "projects/rogue/**"
+  - "projects/rogueMobile/**"
 exclude:
 ignore:
 
