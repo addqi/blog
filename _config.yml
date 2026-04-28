@@ -33,6 +33,8 @@ skip_render:
   - "projects/pixelArtMobile/**"
   - "projects/rogue/**"
   - "projects/rogueMobile/**"
+  - "projects/puzzle/**"
+  - "projects/puzzleMobile/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -99,6 +101,8 @@ include:
   - "projects/pixelArtMobile/**"
   - "projects/rogue/**"
   - "projects/rogueMobile/**"
+  - "projects/puzzle/**"
+  - "projects/puzzleMobile/**"
 exclude:
 ignore:
 
