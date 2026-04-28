@@ -49,4 +49,11 @@ layout: page
   <span class="project-card-tag">手机点击这里</span>
 </a>
 
+<a href="/projects/puzzle-offline.html" class="project-card" download="拼图游戏-离线版.html">
+  <div class="project-card-icon"><i class="fa fa-download"></i></div>
+  <h3>拼图游戏</h3>
+  <p>单文件离线版 - 下载到本地双击即可玩，无需联网</p>
+  <span class="project-card-tag">点击下载到本地</span>
+</a>
+
 </div>
