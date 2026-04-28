@@ -35,4 +35,18 @@ layout: page
   <span class="project-card-tag">手机版 · 开发中</span>
 </a>
 
+<a href="/projects/puzzle/" class="project-card" target="_blank">
+  <div class="project-card-icon"><i class="fa fa-desktop"></i></div>
+  <h3>拼图游戏</h3>
+  <p>Puzzle 游戏原型 - 基于 Cocos Creator 构建</p>
+  <span class="project-card-tag">桌面版 · 开发中</span>
+</a>
+
+<a href="/projects/puzzleMobile/" class="project-card" target="_blank">
+  <div class="project-card-icon"><i class="fa fa-mobile-alt"></i></div>
+  <h3>拼图游戏</h3>
+  <p>Puzzle 游戏原型 - 基于 Cocos Creator 构建</p>
+  <span class="project-card-tag">手机点击这里</span>
+</a>
+
 </div>

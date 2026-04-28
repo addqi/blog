@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>拼图游戏（桌面版）· 敬请期待 | addqi</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0; min-height: 100vh;
+      font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #0f3443 0%, #134e5e 50%, #1a936f 100%);
+      color: #eaeaea;
+    }
+    body {
+      display: flex; align-items: center; justify-content: center;
+      text-align: center; padding: 24px;
+    }
+    .card {
+      max-width: 560px; width: 100%;
+      padding: 40px 28px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+    h1 { margin: 0 0 12px; font-size: 28px; font-weight: 600; letter-spacing: 1px; }
+    .subtitle { margin: 0 0 28px; opacity: 0.7; font-size: 15px; }
+    .emoji { font-size: 56px; margin-bottom: 16px; line-height: 1; }
+    .status {
+      display: inline-block;
+      padding: 6px 14px; margin-bottom: 24px;
+      font-size: 12px; letter-spacing: 2px;
+      background: rgba(150, 230, 161, 0.12);
+      color: #96e6a1;
+      border: 1px solid rgba(150, 230, 161, 0.3);
+      border-radius: 999px;
+    }
+    p { line-height: 1.8; font-size: 14px; opacity: 0.85; margin: 0 0 12px; }
+    .actions { margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      padding: 10px 22px;
+      font-size: 14px; text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+    }
+    .btn-primary { background: #96e6a1; color: #0f3443; font-weight: 600; }
+    .btn-primary:hover { background: #b1f0bb; transform: translateY(-1px); }
+    .btn-ghost { border: 1px solid rgba(255, 255, 255, 0.2); color: #eaeaea; }
+    .btn-ghost:hover { background: rgba(255, 255, 255, 0.06); }
+    .footer { margin-top: 32px; font-size: 12px; opacity: 0.4; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="emoji">🖥️</div>
+    <div class="status">COMING SOON</div>
+    <h1>拼图游戏 · 桌面版</h1>
+    <p class="subtitle">Puzzle Game · Desktop Edition</p>
+    <p>桌面版正在适配中，将支持鼠标拖拽、键盘快捷键与更大画布。</p>
+    <p>现阶段可先在手机或浏览器移动模式下体验。</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="../puzzleMobile/">先玩手机版</a>
+      <a class="btn btn-ghost" href="https://addqi.github.io/">返回首页</a>
+    </div>
+    <div class="footer">addqi · 游戏开发之旅</div>
+  </div>
+</body>
+</html>
